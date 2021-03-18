@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C13DAE5260312510042FDE1 /* GTSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAD2260312500042FDE1 /* GTSwiftDataApp.swift */; };
+		2C13DAE6260312510042FDE1 /* GTSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAD2260312500042FDE1 /* GTSwiftDataApp.swift */; };
+		2C13DAE9260312510042FDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C13DAD4260312510042FDE1 /* Assets.xcassets */; };
+		2C13DAEA260312510042FDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C13DAD4260312510042FDE1 /* Assets.xcassets */; };
+		2C13DAF8260312670042FDE1 /* FlashNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAF6260312670042FDE1 /* FlashNewsView.swift */; };
+		2C13DAF9260312670042FDE1 /* FlashNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAF6260312670042FDE1 /* FlashNewsView.swift */; };
+		2C13DAFA260312670042FDE1 /* FlashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAF7260312670042FDE1 /* FlashListView.swift */; };
+		2C13DAFB260312670042FDE1 /* FlashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAF7260312670042FDE1 /* FlashListView.swift */; };
+		2C13DB002603126E0042FDE1 /* FlashListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAFF2603126E0042FDE1 /* FlashListModel.swift */; };
+		2C13DB012603126E0042FDE1 /* FlashListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DAFF2603126E0042FDE1 /* FlashListModel.swift */; };
+		2C13DB06260312AB0042FDE1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2C13DB05260312AB0042FDE1 /* SDWebImageSwiftUI */; };
+		2C13DB0B260312C90042FDE1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C13DB0A260312C90042FDE1 /* Alamofire */; };
+		2C13DB102603136A0042FDE1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2C13DB0F2603136A0042FDE1 /* SDWebImageSwiftUI */; };
+		2C13DB122603136A0042FDE1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C13DB112603136A0042FDE1 /* Alamofire */; };
+		2C13DB2E26032DE40042FDE1 /* FlashNewsContentUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB2D26032DE40042FDE1 /* FlashNewsContentUtils.swift */; };
+		2C13DB2F26032DE40042FDE1 /* FlashNewsContentUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB2D26032DE40042FDE1 /* FlashNewsContentUtils.swift */; };
+		2C13DB3326032F630042FDE1 /* ViewConditionExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB3226032F630042FDE1 /* ViewConditionExtentsion.swift */; };
+		2C13DB3426032F630042FDE1 /* ViewConditionExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB3226032F630042FDE1 /* ViewConditionExtentsion.swift */; };
+		2C13DB3C26033D130042FDE1 /* FlashDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB3B26033D130042FDE1 /* FlashDataView.swift */; };
+		2C13DB3D26033D130042FDE1 /* FlashDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB3B26033D130042FDE1 /* FlashDataView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C13DAD2260312500042FDE1 /* GTSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTSwiftDataApp.swift; sourceTree = "<group>"; };
+		2C13DAD4260312510042FDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C13DAD9260312510042FDE1 /* GTSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C13DADC260312510042FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C13DAE1260312510042FDE1 /* GTSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C13DAE3260312510042FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C13DAE4260312510042FDE1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2C13DAF6260312670042FDE1 /* FlashNewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashNewsView.swift; sourceTree = "<group>"; };
+		2C13DAF7260312670042FDE1 /* FlashListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashListView.swift; sourceTree = "<group>"; };
+		2C13DAFF2603126E0042FDE1 /* FlashListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashListModel.swift; sourceTree = "<group>"; };
+		2C13DB2D26032DE40042FDE1 /* FlashNewsContentUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashNewsContentUtils.swift; sourceTree = "<group>"; };
+		2C13DB3226032F630042FDE1 /* ViewConditionExtentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConditionExtentsion.swift; sourceTree = "<group>"; };
+		2C13DB3B26033D130042FDE1 /* FlashDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDataView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C13DAD6260312510042FDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13DB06260312AB0042FDE1 /* SDWebImageSwiftUI in Frameworks */,
+				2C13DB0B260312C90042FDE1 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C13DADE260312510042FDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13DB102603136A0042FDE1 /* SDWebImageSwiftUI in Frameworks */,
+				2C13DB122603136A0042FDE1 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C13DACC260312500042FDE1 = {
+			isa = PBXGroup;
+			children = (
+				2C13DAD1260312500042FDE1 /* Shared */,
+				2C13DADB260312510042FDE1 /* iOS */,
+				2C13DAE2260312510042FDE1 /* macOS */,
+				2C13DADA260312510042FDE1 /* Products */,
+				2C13DB0E2603136A0042FDE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C13DAD1260312500042FDE1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DB2A26032D0E0042FDE1 /* Utils */,
+				2C13DAFE2603126E0042FDE1 /* Models */,
+				2C13DAF5260312670042FDE1 /* FlashNews */,
+				2C13DAD2260312500042FDE1 /* GTSwiftDataApp.swift */,
+				2C13DAD4260312510042FDE1 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2C13DADA260312510042FDE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DAD9260312510042FDE1 /* GTSwiftData.app */,
+				2C13DAE1260312510042FDE1 /* GTSwiftData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C13DADB260312510042FDE1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DADC260312510042FDE1 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2C13DAE2260312510042FDE1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DAE3260312510042FDE1 /* Info.plist */,
+				2C13DAE4260312510042FDE1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2C13DAF5260312670042FDE1 /* FlashNews */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DB3A26033CFA0042FDE1 /* FlashNews */,
+				2C13DB3726033CDD0042FDE1 /* FlashData */,
+				2C13DAF7260312670042FDE1 /* FlashListView.swift */,
+			);
+			path = FlashNews;
+			sourceTree = "<group>";
+		};
+		2C13DAFE2603126E0042FDE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DAFF2603126E0042FDE1 /* FlashListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C13DB0E2603136A0042FDE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C13DB2A26032D0E0042FDE1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DB2D26032DE40042FDE1 /* FlashNewsContentUtils.swift */,
+				2C13DB3226032F630042FDE1 /* ViewConditionExtentsion.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C13DB3726033CDD0042FDE1 /* FlashData */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DB3B26033D130042FDE1 /* FlashDataView.swift */,
+			);
+			path = FlashData;
+			sourceTree = "<group>";
+		};
+		2C13DB3A26033CFA0042FDE1 /* FlashNews */ = {
+			isa = PBXGroup;
+			children = (
+				2C13DAF6260312670042FDE1 /* FlashNewsView.swift */,
+			);
+			path = FlashNews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C13DAD8260312510042FDE1 /* GTSwiftData (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C13DAED260312510042FDE1 /* Build configuration list for PBXNativeTarget "GTSwiftData (iOS)" */;
+			buildPhases = (
+				2C13DAD5260312510042FDE1 /* Sources */,
+				2C13DAD6260312510042FDE1 /* Frameworks */,
+				2C13DAD7260312510042FDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GTSwiftData (iOS)";
+			packageProductDependencies = (
+				2C13DB05260312AB0042FDE1 /* SDWebImageSwiftUI */,
+				2C13DB0A260312C90042FDE1 /* Alamofire */,
+			);
+			productName = "GTSwiftData (iOS)";
+			productReference = 2C13DAD9260312510042FDE1 /* GTSwiftData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C13DAE0260312510042FDE1 /* GTSwiftData (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C13DAF0260312510042FDE1 /* Build configuration list for PBXNativeTarget "GTSwiftData (macOS)" */;
+			buildPhases = (
+				2C13DADD260312510042FDE1 /* Sources */,
+				2C13DADE260312510042FDE1 /* Frameworks */,
+				2C13DADF260312510042FDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GTSwiftData (macOS)";
+			packageProductDependencies = (
+				2C13DB0F2603136A0042FDE1 /* SDWebImageSwiftUI */,
+				2C13DB112603136A0042FDE1 /* Alamofire */,
+			);
+			productName = "GTSwiftData (macOS)";
+			productReference = 2C13DAE1260312510042FDE1 /* GTSwiftData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C13DACD260312500042FDE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2C13DAD8260312510042FDE1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2C13DAE0260312510042FDE1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2C13DAD0260312500042FDE1 /* Build configuration list for PBXProject "GTSwiftData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C13DACC260312500042FDE1;
+			packageReferences = (
+				2C13DB04260312AB0042FDE1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				2C13DB09260312C90042FDE1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 2C13DADA260312510042FDE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C13DAD8260312510042FDE1 /* GTSwiftData (iOS) */,
+				2C13DAE0260312510042FDE1 /* GTSwiftData (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C13DAD7260312510042FDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13DAE9260312510042FDE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C13DADF260312510042FDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13DAEA260312510042FDE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C13DAD5260312510042FDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13DAE5260312510042FDE1 /* GTSwiftDataApp.swift in Sources */,
+				2C13DAF8260312670042FDE1 /* FlashNewsView.swift in Sources */,
+				2C13DB002603126E0042FDE1 /* FlashListModel.swift in Sources */,
+				2C13DB3326032F630042FDE1 /* ViewConditionExtentsion.swift in Sources */,
+				2C13DAFA260312670042FDE1 /* FlashListView.swift in Sources */,
+				2C13DB2E26032DE40042FDE1 /* FlashNewsContentUtils.swift in Sources */,
+				2C13DB3C26033D130042FDE1 /* FlashDataView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C13DADD260312510042FDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C13DAE6260312510042FDE1 /* GTSwiftDataApp.swift in Sources */,
+				2C13DAF9260312670042FDE1 /* FlashNewsView.swift in Sources */,
+				2C13DB012603126E0042FDE1 /* FlashListModel.swift in Sources */,
+				2C13DB3426032F630042FDE1 /* ViewConditionExtentsion.swift in Sources */,
+				2C13DAFB260312670042FDE1 /* FlashListView.swift in Sources */,
+				2C13DB2F26032DE40042FDE1 /* FlashNewsContentUtils.swift in Sources */,
+				2C13DB3D26033D130042FDE1 /* FlashDataView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C13DAEB260312510042FDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C13DAEC260312510042FDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2C13DAEE260312510042FDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iSylar.GTSwiftData;
+				PRODUCT_NAME = GTSwiftData;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C13DAEF260312510042FDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iSylar.GTSwiftData;
+				PRODUCT_NAME = GTSwiftData;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C13DAF1260312510042FDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iSylar.GTSwiftData;
+				PRODUCT_NAME = GTSwiftData;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C13DAF2260312510042FDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iSylar.GTSwiftData;
+				PRODUCT_NAME = GTSwiftData;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C13DAD0260312500042FDE1 /* Build configuration list for PBXProject "GTSwiftData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C13DAEB260312510042FDE1 /* Debug */,
+				2C13DAEC260312510042FDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C13DAED260312510042FDE1 /* Build configuration list for PBXNativeTarget "GTSwiftData (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C13DAEE260312510042FDE1 /* Debug */,
+				2C13DAEF260312510042FDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C13DAF0260312510042FDE1 /* Build configuration list for PBXNativeTarget "GTSwiftData (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C13DAF1260312510042FDE1 /* Debug */,
+				2C13DAF2260312510042FDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C13DB04260312AB0042FDE1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		2C13DB09260312C90042FDE1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C13DB05260312AB0042FDE1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C13DB04260312AB0042FDE1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		2C13DB0A260312C90042FDE1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C13DB09260312C90042FDE1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2C13DB0F2603136A0042FDE1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C13DB04260312AB0042FDE1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		2C13DB112603136A0042FDE1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C13DB09260312C90042FDE1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C13DACD260312500042FDE1 /* Project object */;
+}
