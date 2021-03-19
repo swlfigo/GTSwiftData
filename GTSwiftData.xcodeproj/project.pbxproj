@@ -27,6 +27,8 @@
 		2C13DB3426032F630042FDE1 /* ViewConditionExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB3226032F630042FDE1 /* ViewConditionExtentsion.swift */; };
 		2C13DB3C26033D130042FDE1 /* FlashDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB3B26033D130042FDE1 /* FlashDataView.swift */; };
 		2C13DB3D26033D130042FDE1 /* FlashDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13DB3B26033D130042FDE1 /* FlashDataView.swift */; };
+		2C25899A26049D0D006FDDF5 /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C25899926049D0D006FDDF5 /* ImageViewer.swift */; };
+		2C25899B26049D0D006FDDF5 /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C25899926049D0D006FDDF5 /* ImageViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,7 @@
 		2C13DB2D26032DE40042FDE1 /* FlashNewsContentUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashNewsContentUtils.swift; sourceTree = "<group>"; };
 		2C13DB3226032F630042FDE1 /* ViewConditionExtentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConditionExtentsion.swift; sourceTree = "<group>"; };
 		2C13DB3B26033D130042FDE1 /* FlashDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDataView.swift; sourceTree = "<group>"; };
+		2C25899926049D0D006FDDF5 /* ImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,7 @@
 		2C13DB2A26032D0E0042FDE1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2C25898D26049ABD006FDDF5 /* ImageViewer */,
 				2C13DB2D26032DE40042FDE1 /* FlashNewsContentUtils.swift */,
 				2C13DB3226032F630042FDE1 /* ViewConditionExtentsion.swift */,
 			);
@@ -164,6 +168,14 @@
 				2C13DAF6260312670042FDE1 /* FlashNewsView.swift */,
 			);
 			path = FlashNews;
+			sourceTree = "<group>";
+		};
+		2C25898D26049ABD006FDDF5 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				2C25899926049D0D006FDDF5 /* ImageViewer.swift */,
+			);
+			path = ImageViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C13DAE5260312510042FDE1 /* GTSwiftDataApp.swift in Sources */,
+				2C25899A26049D0D006FDDF5 /* ImageViewer.swift in Sources */,
 				2C13DAF8260312670042FDE1 /* FlashNewsView.swift in Sources */,
 				2C13DB002603126E0042FDE1 /* FlashListModel.swift in Sources */,
 				2C13DB3326032F630042FDE1 /* ViewConditionExtentsion.swift in Sources */,
@@ -290,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C13DAE6260312510042FDE1 /* GTSwiftDataApp.swift in Sources */,
+				2C25899B26049D0D006FDDF5 /* ImageViewer.swift in Sources */,
 				2C13DAF9260312670042FDE1 /* FlashNewsView.swift in Sources */,
 				2C13DB012603126E0042FDE1 /* FlashListModel.swift in Sources */,
 				2C13DB3426032F630042FDE1 /* ViewConditionExtentsion.swift in Sources */,

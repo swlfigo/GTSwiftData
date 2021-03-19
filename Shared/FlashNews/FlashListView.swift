@@ -11,23 +11,28 @@ struct FlashListView: View {
     
     @State private var models:[FlashModel] = []
     
+    @State var show : Bool = false
+    @State var fullScreenURL:URL?
     
     var body: some View {
-        List(models,id:\.id){ model in
-            if model.type == 0{
-                FlashNewsView(flashModel: model)
-            }else if model.type == 1 {
-                FlashDataView(flashModel: model)
+        ZStack {
+            List(models,id:\.id){ model in
+                if model.type == 0{
+                    FlashNewsView(flashModel: model,show: $show, fullScrenImageURL: $fullScreenURL)
+                }else if model.type == 1 {
+                    FlashDataView(flashModel: model)
+                }
+                
+            }.onAppear(perform: {
+                getData()
+            })
+            if show{
+                ImageViewer(imageURL: fullScreenURL, showFullScreen: $show)
             }
             
-        }.onAppear(perform: {
-            getData()
-        })
+        }
         
     }
-    
-    
-    
     
     
     func getData() -> Void{
@@ -39,7 +44,7 @@ struct FlashListView: View {
             models.append(contentsOf: flashModels)
         }
     }
-
+    
 }
 
 struct FlashListView_Previews: PreviewProvider {
