@@ -28,9 +28,11 @@ struct FlashListView: View {
             })
             if show{
                 ImageViewer(imageURL: fullScreenURL, showFullScreen: $show)
+                    .edgesIgnoringSafeArea(.all)
             }
             
         }
+        
         
     }
     
